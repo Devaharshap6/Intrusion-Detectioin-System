@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+#alerts-list {
+    list-style: none;
+    padding: 0;
+}
+
+#alerts-list li {
+    background: #ffe6e6;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 4px solid red;
+}
